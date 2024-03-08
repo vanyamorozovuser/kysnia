@@ -1,0 +1,301 @@
+local HkbLbWscRa7b7jogdSlb = Instance.new("ScreenGui")
+local bg1 = Instance.new("Frame")
+local bg2 = Instance.new("Frame")
+local bg3 = Instance.new("Frame")
+local bg4 = Instance.new("Frame")
+local main = Instance.new("Frame")
+local group = Instance.new("Frame")
+local tab = Instance.new("Frame")
+local center = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+local right = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local UIPadding_2 = Instance.new("UIPadding")
+local left = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local UIPadding_3 = Instance.new("UIPadding")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local tabbuttons = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local button = Instance.new("TextButton")
+local text = Instance.new("TextLabel")
+local element = Instance.new("Frame")
+local pre = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+ 
+HkbLbWscRa7b7jogdSlb.Name = "HkbLbWscRa7b7jogdSlb"
+HkbLbWscRa7b7jogdSlb.Parent = game.CoreGui
+HkbLbWscRa7b7jogdSlb.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+bg1.Name = "bg1"
+bg1.Parent = HkbLbWscRa7b7jogdSlb
+bg1.BackgroundColor3 = Color3.new(0.686275, 0.686275, 0.686275)
+bg1.BorderColor3 = Color3.new(0.0392157, 0.0392157, 0.0392157)
+bg1.BorderSizePixel = 2
+bg1.Position = UDim2.new(0.0762032121, 0, 0.119805835, 0)
+bg1.Size = UDim2.new(0, 824, 0, 432)
+bg1.Visible = false
+bg1.Selectable = true
+bg1.Active = true
+bg1.Draggable = true
+
+bg2.Name = "bg2"
+bg2.Parent = bg1
+bg2.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+bg2.BorderColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+bg2.Size = UDim2.new(1, 0, 1, 0)
+
+bg3.Name = "bg3"
+bg3.Parent = bg2
+bg3.BackgroundColor3 = Color3.new(0.686275, 0.686275, 0.686275)
+bg3.BorderColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+bg3.BorderSizePixel = 2
+bg3.Position = UDim2.new(0, 7, 0.00200003176, 21)
+bg3.Size = UDim2.new(0, 809, 0, 403)
+
+bg4.Name = "bg4"
+bg4.Parent = bg3
+bg4.BackgroundColor3 = Color3.new(0.0705882, 0.0705882, 0.0705882)
+bg4.BorderColor3 = Color3.new(0.0392157, 0.0392157, 0.0392157)
+bg4.Size = UDim2.new(1, 0, 1, 0)
+
+main.Name = "main"
+main.Parent = bg4
+main.BackgroundColor3 = Color3.new(0.686275, 0.686275, 0.686275)
+main.BorderColor3 = Color3.new(0.0392157, 0.0392157, 0.0392157)
+main.BorderSizePixel = 2
+main.Position = UDim2.new(0, 7, 0.0229999553, 15)
+main.Size = UDim2.new(0, 792, 0, 369)
+
+group.Name = "group"
+group.Parent = main
+group.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+group.BorderColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+group.Size = UDim2.new(1, 0, 1, 0)
+
+tab.Name = "tab"
+tab.Parent = group
+tab.BackgroundColor3 = Color3.new(1, 1, 1)
+tab.BackgroundTransparency = 1
+tab.Size = UDim2.new(1, 0, 1, 0)
+
+center.Name = "center"
+center.Parent = tab
+center.Active = true
+center.BackgroundColor3 = Color3.new(1, 1, 1)
+center.BackgroundTransparency = 1
+center.BorderSizePixel = 0
+center.Position = UDim2.new(0, 231, 0, 0)
+center.Size = UDim2.new(0, 231, 1, 0)
+center.CanvasSize = UDim2.new(0, 0, 0, 0)
+center.ScrollBarThickness = 0
+
+UIListLayout.Parent = center
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 11)
+
+UIPadding.Parent = center
+UIPadding.PaddingBottom = UDim.new(0, 9)
+UIPadding.PaddingTop = UDim.new(0, 13)
+
+right.Name = "right"
+right.Parent = tab
+right.Active = true
+right.BackgroundColor3 = Color3.new(1, 1, 1)
+right.BackgroundTransparency = 1
+right.BorderSizePixel = 0
+right.Position = UDim2.new(0, 462, 0, 0)
+right.Size = UDim2.new(0, 231, 1, 0)
+right.CanvasSize = UDim2.new(0, 0, 0, 0)
+right.ScrollBarThickness = 0
+
+UIListLayout_2.Parent = right
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 11)
+
+UIPadding_2.Parent = right
+UIPadding_2.PaddingBottom = UDim.new(0, 9)
+UIPadding_2.PaddingTop = UDim.new(0, 13)
+
+left.Name = "left"
+left.Parent = tab
+left.Active = true
+left.BackgroundColor3 = Color3.new(1, 1, 1)
+left.BackgroundTransparency = 1
+left.BorderSizePixel = 0
+left.Size = UDim2.new(0, 231, 1, 0)
+left.CanvasSize = UDim2.new(0, 0, 0, 0)
+left.ScrollBarThickness = 0
+
+UIListLayout_3.Parent = left
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 11)
+
+UIPadding_3.Parent = left
+UIPadding_3.PaddingBottom = UDim.new(0, 9)
+UIPadding_3.PaddingTop = UDim.new(0, 13)
+
+TextButton.Parent = tab
+TextButton.BackgroundColor3 = Color3.new(0.243137, 0.243137, 0.243137)
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.196969703, 0, 0.0758807585, 0)
+TextButton.Size = UDim2.new(0, 100, 0, 41)
+TextButton.Font = Enum.Font.Arcade
+TextButton.Text = "Esp"
+TextButton.TextColor3 = Color3.new(0, 0, 0)
+TextButton.TextSize = 14
+TextButton.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://gitlab.com/te4224/Scripts/-/raw/main/Universal%20Aimbot%20N%20Esp/v2/main.lua")();
+end)
+
+TextButton_2.Parent = tab
+TextButton_2.BackgroundColor3 = Color3.new(0.243137, 0.243137, 0.243137)
+TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.027777778, 0, 0.0758807585, 0)
+TextButton_2.Size = UDim2.new(0, 100, 0, 41)
+TextButton_2.Font = Enum.Font.Arcade
+TextButton_2.Text = "Hitbox"
+TextButton_2.TextColor3 = Color3.new(0, 0, 0)
+TextButton_2.TextSize = 14
+TextButton_2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/vanyamorozovuser/wegsdgs/main/12312312")()
+end)
+
+TextButton_3.Parent = tab
+TextButton_3.BackgroundColor3 = Color3.new(0.243137, 0.243137, 0.243137)
+TextButton_3.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.363636374, 0, 0.0758807585, 0)
+TextButton_3.Size = UDim2.new(0, 159, 0, 41)
+TextButton_3.Font = Enum.Font.Arcade
+TextButton_3.Text = "Exploiters Killer"
+TextButton_3.TextColor3 = Color3.new(0, 0, 0)
+TextButton_3.TextSize = 14
+TextButton_3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/Deni210/murdersvssherrifsduels/main/rubyhub")()
+end)
+
+TextButton_4.Parent = group
+TextButton_4.BackgroundColor3 = Color3.new(0.243137, 0.243137, 0.243137)
+TextButton_4.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.601010084, 0, 0.0758807585, 0)
+TextButton_4.Size = UDim2.new(0, 159, 0, 41)
+TextButton_4.Font = Enum.Font.Arcade
+TextButton_4.Text = "Leave From game"
+TextButton_4.TextColor3 = Color3.new(0, 0, 0)
+TextButton_4.TextSize = 14
+TextButton_4.MouseButton1Click:Connect(function() 
+    game:shutdown() 
+    end)
+
+TextButton_5.Parent = group
+TextButton_5.BackgroundColor3 = Color3.new(0.243137, 0.243137, 0.243137)
+TextButton_5.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.834595978, 0, 0.0758807585, 0)
+TextButton_5.Size = UDim2.new(0, 123, 0, 41)
+TextButton_5.Font = Enum.Font.Arcade
+TextButton_5.Text = "Rejoin"
+TextButton_5.TextColor3 = Color3.new(0, 0, 0)
+TextButton_5.TextSize = 14
+TextButton_5.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/vanyamorozovuser/12312312g/main/12312312")()
+end)
+
+
+tabbuttons.Name = "tabbuttons"
+tabbuttons.Parent = bg4
+tabbuttons.BackgroundColor3 = Color3.new(0, 0, 0)
+tabbuttons.BackgroundTransparency = 1
+tabbuttons.BorderSizePixel = 0
+tabbuttons.Position = UDim2.new(0, 7, 0, 5)
+tabbuttons.Size = UDim2.new(0, 792, 0, 22)
+tabbuttons.ZIndex = 0
+
+UIListLayout_4.Parent = tabbuttons
+UIListLayout_4.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+
+button.Name = "button"
+button.Parent = tabbuttons
+button.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+button.BackgroundTransparency = 1
+button.BorderSizePixel = 0
+button.Size = UDim2.new(0.143175051, 0, 0, 22)
+button.Visible = false
+button.ZIndex = 0
+button.Modal = true
+button.Font = Enum.Font.Code
+button.Text = ""
+button.TextColor3 = Color3.new(1, 1, 1)
+button.TextSize = 13
+button.TextStrokeTransparency = 0
+
+text.Name = "text"
+text.Parent = button
+text.BackgroundColor3 = Color3.new(1, 1, 1)
+text.BackgroundTransparency = 1
+text.Size = UDim2.new(1.01893294, 0, 1, 0)
+text.ZIndex = 2
+text.Font = Enum.Font.Code
+text.Text = "Main"
+text.TextColor3 = Color3.new(0.564706, 0.564706, 0.564706)
+text.TextSize = 14
+text.TextStrokeTransparency = 0
+
+element.Name = "element"
+element.Parent = button
+element.BackgroundColor3 = Color3.new(0.941176, 0.556863, 0.839216)
+element.BackgroundTransparency = 1
+element.BorderSizePixel = 0
+element.Position = UDim2.new(0, 0, 1, -2)
+element.Size = UDim2.new(1.01893294, 0, 0, 1)
+element.ZIndex = 0
+
+pre.Name = "pre"
+pre.Parent = bg1
+pre.BackgroundColor3 = Color3.new(1, 1, 1)
+pre.BackgroundTransparency = 1
+pre.Position = UDim2.new(0, 369, 0, 0)
+pre.Size = UDim2.new(0, 86, 0, 21)
+pre.Font = Enum.Font.Code
+pre.Text = "mvsd.sense"
+pre.TextColor3 = Color3.new(1, 1, 1)
+pre.TextSize = 13
+pre.TextStrokeTransparency = 0
+pre.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_6.Parent = bg1
+TextButton_6.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+TextButton_6.Position = UDim2.new(1, 0, 0, 0)
+TextButton_6.Size = UDim2.new(-0.0315534137, 0, 0.0347222164, 0)
+TextButton_6.Font = Enum.Font.Unknown
+TextButton_6.Text = "X"
+TextButton_6.TextColor3 = Color3.new(1, 1, 1)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14
+TextButton_6.TextWrapped = true
+TextButton_6.MouseButton1Click:Connect(function()
+	TextButton_6.Parent.Visible = false
+end)
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key) 
+	if key == "v" then
+		if bg1.Visible == false then
+			bg1.Visible = true
+		else
+			bg1.Visible = false
+		end
+	end
+end)
